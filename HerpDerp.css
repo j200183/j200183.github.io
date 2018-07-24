@@ -1,0 +1,30 @@
+body{
+  margin: 50px 150px 120px 150px;
+}
+h1 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
+}
+h4 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #999999;
+}
+strong,div {
+  font-family: 'Rajdhani', sans-serif;
+}
+.makeblue {
+  color: blue;
+}
+.imagefont {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 12px;
+}
+.centertext {
+  text-align: center;
+}
+.imgsize {
+  height: 40%;
+  width: 40%;
+}
