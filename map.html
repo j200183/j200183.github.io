@@ -27,6 +27,14 @@
 </html>-->
 <!DOCTYPE html>
 <html lang="en-US">
+<!DOCTYPE>
+<html>
+  <link rel ="stylesheet"; href = "blog.css">
+  <script src="blog.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
 <head>
 	<!-- Open Layers API -->
 	<link rel="stylesheet" href="https://openlayers.org/en/v4.6.4/css/ol.css" type="text/css">
@@ -37,6 +45,11 @@
 	<title>Weather Map</title>
 </head>
 <body>
+	<div class="topnav">
+		<a id="home" href="blog.html" onmouseover="navchange(home)" onmouseout="nav_restore(home)">Home</a>
+		<a id="about" href="amoutMe.html" onmouseover="navchange(about)" onmouseout="nav_restore(about)">About</a>
+		<a id="places" href="mapAPI.html" onmouseover="navchange(places)" onmouseout="nav_restore(places)">Places</a>
+	</div>
 	<p> <!-- paragraph marker added here for spacing -->
 		<textarea id="country-name" rows="1" cols ="20">thailand</textarea>
 		<button onclick="panToCountry()">Pan to Country</button>
