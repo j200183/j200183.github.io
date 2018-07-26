@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--This is a comment onmouseover="enlarge(author)" onmouseout="smaller(author)" -->
+<html>
+  <link rel ="stylesheet"; href = "blog.css">
+  <script src="blog.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <head>
+  </head>
+  <body>
+    <h1 class="titlepage"><a href="blog.html"> Herp  Derp</a></h1>
+    <h4>A blog about reptiles and other critters</h4>
+    <div class="topnav">
+      <a id="home" href="herpderp.html" onmouseover="setTimeout(function(){navchange(home);},100)" onmouseout="nav_restore(home)">Home</a>
+      <!--<div class="dropdown">
+        <button id="snakebutton" class="dropbtn" onmouseover="menuhover(snaketype,snakebutton)" onmouseout="menuout(snaketype,snakebutton)">Snake</button>
+        <div id ="snaketype" class="dropdown-content">
+          <a href="ballpython.html">Ball Python</a>
+          <a href="garter.html">Garter Snake</a>
+          <a href="indigo.html">Indigo Snake</a>
+        </div>
+      </div>-->
+      <a id="places" href="map.html" onmouseover="navchange(places)" onmouseout="nav_restore(places)">Places</a>
+      <a id="about" href="aboutMe.html" onmouseover="navchange(about)" onmouseout="nav_restore(about)">About</a>
+    </div>
+    <div id="text">
+      <strong>What is herpetology?</strong>
+      <p id="blah">
+        Not many people recognize this subject of study, and no, it is not the study of herpes.
+        In fact, it is a branch of zoology which focuses on reptiles and amphibians.
+        Reptiles, due to their cold-blooded nature and slithering movements (hence the root word of herpetology, "herpein", which means "to creep" in Greek), have long been demonized by the humans.
+        However, reptiles and amphibians are quiet harmless and amiable creatures with huge enthusiast communities all over the world.
+      </p>
+    </div>
+      <p class = "centertext">
+        <img class="imgsize" alt="Ball pythons on sale at expo" src="image1.jpeg">
+        <img class = "imgsize" alt="Various snakes inside tubs for sale" src="image2.jpeg">
+      </p>
+      <div class = "imagefont centertext">
+        Washington Reptile Expo 2014
+      </div>
+      <div id="hide" style="display:none">
+        <strong>Personal engagement</strong>
+        <p>I've always loved reptiles since I was young, especially snakes.
+          I remember throwing a fit when I was 6 years old because I wanted a pet snake.
+          Of course that never happened since my parents were regular human beings who despised reptiles.
+          Starting in middle school, I started researching about snakes and lizards as a hobby when I wasn't doing homeworks and studying, practicing viola, or having late-night existential crises while listening to lofi.
+        </p>
+      </div>
+    <button id="next" type="button" onclick="press_button(hide), hide_button(next)"> Next </button>
+    <footer>
+      ©2018 Hannah Jeon
+    </footer>
+  </body>
+</html>
